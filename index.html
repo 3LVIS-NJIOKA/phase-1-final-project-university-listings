@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Single Page Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <header>
+            <div class = "wrapper">
+                <div class = "icon">
+                    <i class = "fas fa-laptop-code"></i>
+                </div>
+                <div class = "vert-line"></div>
+                <div class = "text">
+                    <h2>University lists</h2>
+                    
+                </div>
+                <div class = "vert-line"></div>
+                <nav>
+                    <ul>
+                        <li><a href = "#">Home</a></li>
+
+                        <li><a href = "#">About</a></li>
+                        <li><a href = "#">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id = "Home" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">Home</h2>
+            <p>A beginners guide on a vast number of world universities to choose from that provide a variety of courses.Most students find it hard to choose a course that they are dtermined about and the specific school that offer the best education on that course and end up choosing what their parents advocate for them to do.</p>
+           
+        </section>
+
+        <!-- <section id = "List" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">List</h2>
+
+           
+           
+        </section> -->
+
+        <section id = "about" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">about</h2>
+            <p>This is a list of a number of universities you can choose from.</p>
+            <div id ="aboutInfo"></div>
+           
+        </section>
+
+        <section id = "Help" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">Help</h2>
+            <p>For futher details kindly fill the form;</p>
+
+            <form>
+                <label for = "name">Name</label>
+                <input type = "text" id = "name">
+                <label for = "email">Email</label>
+                <input type = "email" id = "email">
+                <label for = "dob">Date Of Birth</label>
+                <input type = "date" id = "dob">
+                <label for = "message">Message</label>
+                <textarea id = "message" name = "message" rows = "4"></textarea>
+
+                <input type = "submit" value = "Send">
+            </form>
+            <p>Thank you.</p>
+        </section>
+        
+
+        <!-- JS File -->
+        <script src = "index.js"></script>
+    </body>
+</html>
